@@ -40,43 +40,42 @@ const Hero: React.FC = () => {
         </video>
       </div>
 
-      {/* Content — vertically centered, shifted slightly down for visual weight */}
-      <div className="relative z-20 container mx-auto px-6 md:px-12 flex flex-col text-right w-full mt-16 md:mt-24">
+      {/* Content */}
+      <div className="relative z-20 container mx-auto px-6 md:px-12 flex flex-col text-right w-full">
 
-        <div className={`max-w-4xl w-full transition-all duration-1000 transform ${loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+        <div className={`max-w-2xl w-full transition-all duration-1000 transform ${loaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
 
-          {/* Trust pre-badge — anchors credibility before the headline */}
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 text-xs font-bold tracking-widest text-timber-accent uppercase mb-8">
+          {/* Trust badge */}
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 text-xs font-bold tracking-widest text-timber-accent uppercase mb-5">
             ★ שירות במרכז / שרון / שפלה
           </div>
 
-          {/* Headline */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[1.1] tracking-tight mb-6 text-white">
-            התקנת פרקט ותיקוני פרקט<br/>
-            שטיחים מקיר לקיר<br/>
-            וחידוש דקים.
+          {/* Headline — tighter and more focused */}
+          <h1 className="text-3xl md:text-5xl font-black leading-[1.2] tracking-tight mb-4 text-white">
+            פרקט, שטיחים מקיר לקיר<br/>
+            וחידוש דקים — מקצועי ואמין.
           </h1>
 
-          {/* Subtext — leading-loose gives Hebrew text the air it needs */}
-          <p className="text-lg md:text-xl text-white/90 font-light mb-10 max-w-2xl leading-loose border-r-2 border-timber-accent pr-6">
-            עבודה לפי מצב התשתית והיצרן, עם הסבר ברור מה נעשה, מה כלול ומה לא.<br/>
+          {/* Subtext — short and clear */}
+          <p className="text-sm md:text-base text-white/80 font-light mb-7 max-w-md leading-relaxed border-r-2 border-timber-accent pr-4">
+            הסבר ברור מה נעשה, מה כלול ומה לא.<br/>
             שירות במרכז, שרון ושפלה.
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 mt-8">
+          <div className="flex flex-col sm:flex-row gap-3 mt-6">
             <a
               href="https://wa.me/972543962871?text=%D7%94%D7%99%D7%99%20%D7%92%27%D7%A8%D7%99%D7%A7%D7%95%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9C%D7%95%D7%97%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%20%D7%95%D7%9C%D7%A7%D7%91%D7%9C%20%D7%9B%D7%99%D7%95%D7%95%D7%9F%20%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%99"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-timber-accent text-timber-black hover:bg-white px-8 py-5 text-base font-bold transition-all duration-300 min-w-[280px] flex items-center justify-center gap-3 shadow-lg shadow-timber-accent/30 hover:shadow-xl hover:-translate-y-0.5"
+              className="bg-timber-accent text-timber-black hover:bg-white px-6 py-4 text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-timber-accent/30 hover:shadow-xl hover:-translate-y-0.5"
             >
-              <MessageCircle className="w-5 h-5 fill-current text-[#25D366]" />
-              שלחו תמונה בוואטסאפ לקבלת כיוון ראשוני
+              <MessageCircle className="w-4 h-4 fill-current text-[#25D366]" />
+              שלחו תמונה בוואטסאפ לכיוון ראשוני
             </a>
             <a
               href="tel:0543962871"
-              className="border border-white/40 bg-black/20 backdrop-blur-sm text-white hover:bg-white hover:text-black px-8 py-5 text-base font-bold transition-all duration-300 min-w-[200px] flex items-center justify-center gap-3"
+              className="border border-white/40 bg-black/20 backdrop-blur-sm text-white hover:bg-white hover:text-black px-6 py-4 text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2"
             >
               <Phone className="w-4 h-4" />
               תיאום בדיקה/מדידה
