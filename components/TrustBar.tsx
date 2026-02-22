@@ -3,7 +3,7 @@ import React from 'react';
 const TrustBar: React.FC = () => {
   const stats = [
     { value: "5.0", label: "בגוגל (ביקורות מאומתות)" },
-    { value: "500+", label: "רצפות שהושלמו בגוש דן" },
+    { value: "500+", label: "רצפות שהושלמו במרכז ובשרון" },
     { value: "10+", label: "שנות התמחות בפרקטים מורכבים" },
     { value: "5", label: "שנות אחריות בכתב" },
     { value: "0", label: "קבלני משנה בפרויקטים שלי" },

@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
             {/* Brand */}
             <div className="md:w-1/3">
                 <p className="mb-2 font-black text-white text-3xl tracking-tighter">ג'ריקו אספינוזה</p>
-                <p className="mb-8 text-sm font-light text-gray-500">אומן פרקט, שטיחים ודקים. עבודה מדויקת ללא פשרות.</p>
+                <p className="mb-8 text-sm font-light text-gray-500">פרקטים, שטיחים ודקים. ג'ריקו עובד לבד — מהמדידה עד הגימור.</p>
                 <div className="flex flex-col gap-2 text-sm font-bold">
                     <a href="tel:0543962871" className="hover:text-white transition-colors">054-396-2871</a>
                     <a href="https://wa.me/972543962871" className="hover:text-white transition-colors">וואטסאפ: זמין להתייעצות</a>

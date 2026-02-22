@@ -56,7 +56,7 @@ const LeadForm: React.FC = () => {
               כמה זה יעלה?
             </h2>
             <h3 className="text-xl md:text-2xl text-gray-300 font-bold mb-4">
-              תוך 24 שעות, אחרי תמונה — תקבלו מחיר סופי שלא יזוז.
+              אחרי תמונה ומדידה — מחיר סופי שלא זז.
             </h3>
           </div>
 

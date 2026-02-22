@@ -41,7 +41,7 @@ const Process: React.FC = () => {
             </span>
             <h2 className="text-4xl md:text-5xl font-black text-timber-black leading-tight">
               בדיקה → הצעה → ביצוע → סיום.<br/>
-              ברור מהתחלה.
+              בלי הפתעות בדרך.
             </h2>
           </div>
           <div className="hidden md:block">

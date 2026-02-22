@@ -47,19 +47,17 @@ const Hero: React.FC = () => {
 
           {/* Trust badge */}
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 text-xs font-bold tracking-widest text-timber-accent uppercase mb-5">
-            ★ שירות במרכז / שרון / שפלה
+            ★ שירות במרכז, שרון ושפלה
           </div>
 
-          {/* Headline — tighter and more focused */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[1.1] tracking-tight mb-6 text-white">
-            התקנת פרקטים<br/>
-            ושטיחים מקיר לקיר.
+          {/* Headline */}
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-black leading-[1.15] tracking-tight mb-6 text-white">
+            פרקטים, שטיחים ודקים — מהיר, נקי, ג'ריקו לבד.
           </h1>
 
-          {/* Subtext — short and clear */}
+          {/* Subtext */}
           <p className="text-sm md:text-base text-white/80 font-light mb-7 max-w-md leading-relaxed border-r-2 border-timber-accent pr-4">
-            הסבר ברור מה נעשה, מה כלול ומה לא.<br/>
-            שירות במרכז, שרון ושפלה.
+            מדידה, התקנה וגימור. בלי קבלני משנה, בלי הפתעות.
           </p>
 
           {/* CTAs */}
@@ -78,7 +76,7 @@ const Hero: React.FC = () => {
               className="border border-white/40 bg-black/20 backdrop-blur-sm text-white hover:bg-white hover:text-black px-6 py-4 text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2"
             >
               <Phone className="w-4 h-4" />
-              תיאום בדיקה/מדידה
+              תיאום בדיקה / מדידה
             </a>
           </div>
 
@@ -86,15 +84,15 @@ const Hero: React.FC = () => {
           <div className="flex flex-wrap gap-x-6 gap-y-2 mt-6 text-white/60 text-xs font-medium">
             <span className="flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-timber-accent inline-block"></span>
-              התאמה למצב התשתית
+              עבודה מהירה ומסודרת
             </span>
             <span className="flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-timber-accent inline-block"></span>
-              עבודה מדויקת ונקייה
+              ג'ריקו עובד — לא שולח
             </span>
             <span className="flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-timber-accent inline-block"></span>
-              פתרון מלא מהכנה עד גימור
+              פינוי פסולת ונקיון בסיום
             </span>
           </div>
 

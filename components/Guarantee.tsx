@@ -28,7 +28,7 @@ const Guarantee: React.FC = () => {
               <Ruler className="w-10 h-10 text-timber-accent" />
               <span className="text-gray-700 font-black text-5xl opacity-20 group-hover:opacity-40 transition-opacity">01</span>
             </div>
-            <h3 className="text-2xl font-bold mb-4 text-white">מחיר סופי בהחלט</h3>
+            <h3 className="text-2xl font-bold mb-4 text-white">מחיר שלא זז</h3>
             <p className="text-gray-400 leading-relaxed text-sm">
               הסכום שנסגר במדידה הוא הסכום הסופי. אין "הפתעות" ביום ההתקנה, אין תוספות על פנלים, ואין אותיות קטנות. מילה זו מילה.
             </p>
