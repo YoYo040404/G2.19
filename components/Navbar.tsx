@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
             ג'ריקו אספינוזה
           </span>
           <span className={`text-[11px] font-medium tracking-wide opacity-80 transition-colors ${isScrolled ? 'text-gray-500' : 'text-white/80'}`}>
-            אומן פרקט ודקים
+            פרקט · שטיחים · דקים
           </span>
         </div>
 
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
              onClick={() => scrollToSection('contact-form')}
              className={`px-6 py-3 text-sm font-bold border transition-all duration-300 bg-timber-accent text-timber-black border-timber-accent hover:bg-white hover:border-white`}
            >
-             הצעת מחיר
+             שלחו תמונה
            </button>
         </div>
 
@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
              onClick={() => scrollToSection('contact-form')}
              className="mt-8 px-8 py-4 bg-timber-accent text-timber-black text-sm font-bold"
            >
-             תיאום ייעוץ
+             שלחו תמונה
            </button>
       </div>
     </nav>
