@@ -51,9 +51,9 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Headline — tighter and more focused */}
-          <h1 className="text-3xl md:text-5xl font-black leading-[1.2] tracking-tight mb-4 text-white">
-            פרקט, שטיחים מקיר לקיר<br/>
-            וחידוש דקים — מקצועי ואמין.
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[1.1] tracking-tight mb-6 text-white">
+            התקנת פרקטים<br/>
+            ושטיחים מקיר לקיר.
           </h1>
 
           {/* Subtext — short and clear */}
@@ -81,6 +81,23 @@ const Hero: React.FC = () => {
               תיאום בדיקה/מדידה
             </a>
           </div>
+
+          {/* Micro-trust row */}
+          <div className="flex flex-wrap gap-x-6 gap-y-2 mt-6 text-white/60 text-xs font-medium">
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-timber-accent inline-block"></span>
+              התאמה למצב התשתית
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-timber-accent inline-block"></span>
+              עבודה מדויקת ונקייה
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-timber-accent inline-block"></span>
+              פתרון מלא מהכנה עד גימור
+            </span>
+          </div>
+
         </div>
       </div>
     </section>
