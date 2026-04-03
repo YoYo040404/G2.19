@@ -75,7 +75,12 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label={isMenuOpen ? 'Close mobile menu' : 'Open mobile menu'}
+            aria-expanded={isMenuOpen}
+            aria-controls="mobile-menu"
+          >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
@@ -83,7 +88,10 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu Overlay */}
       {/* Fixed: Use -translate-x-full to slide from correct side in RTL */}
-      <div className={`fixed inset-0 bg-timber-black text-white z-40 flex flex-col items-center justify-center gap-8 transition-transform duration-500 md:hidden ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div
+        id="mobile-menu"
+        className={`fixed inset-0 bg-timber-black text-white z-40 flex flex-col items-center justify-center gap-8 transition-transform duration-500 md:hidden ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}
+      >
          {['השירותים', 'תהליך', 'פרויקטים', 'שאלות נפוצות'].map((item, idx) => {
              const map: {[key:string]: string} = { 'השירותים': 'services', 'תהליך': 'process', 'פרויקטים': 'gallery', 'שאלות נפוצות': 'faq' };
              return (
